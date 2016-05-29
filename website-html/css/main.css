@@ -154,7 +154,9 @@ p, h4, h5{
     font-family: 'Courgette';
  }
 
- h6
+ h6 {
+    font-family: 'Courgette';
+ }
 
  .letters-right {
     font-family: 'Courgette';
