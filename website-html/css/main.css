@@ -98,7 +98,6 @@ textarea {
 * {
     background:  #bfbfbf;
     color: #666699;
-    box-sizing: border-box;
 }
 
 .logo {
@@ -139,18 +138,47 @@ h2 {
     font-family: 'rajdhani';
 }
 
-p, h4 {
+p, h4, h5{
     font-family: 'rajdhani';
     margin-left: 5px;
     margin-right: 5px;
 }
  
+ h5 {
+    font-size: 1.5em;
+    font-family: 'Courgette';
+ }
+
+ h4 {
+    font-size: 1em;
+    font-family: 'Courgette';
+ }
+
+ h6
+
+ .letters-right {
+    font-family: 'Courgette';
+    list-style: none;
+    text-decoration: none;
+ }
+
+ div ul li {
+    text-decoration: none;
+    list-style: none;
+ }
+
  p{
     margin-left: 10px;
  }
 
- h1 {
-    color: purple;
+ 
+
+ span {
+    font-size: 1em;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Courgette';
+    color:  #33334d;
  }
 
 .picture {
