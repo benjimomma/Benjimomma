@@ -1,0 +1,350 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/*****HEADER****/
+.header {
+    background: #618685;
+    background-size: auto;
+}
+
+.logo {
+   padding:.5%;
+}
+
+
+#logo {
+    font-family:'Courgette';
+    text-align: center;
+    
+    
+    font-size: 42px;
+}
+
+
+
+/******NAVAGIATION****/   
+
+nav {
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/******HEADER STYLES******/
+h1{
+    color:#d5f4e6;
+    border-bottom: solid 10% #d5f4e6;
+}
+
+a{
+    color:#618685;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'rajdhani';
+    color:#618685;
+}
+
+body {
+    background:#fefbd8;
+
+}
+
+p, h4, h5{
+    font-family: 'rajdhani';
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#618685;
+}
+
+ h4 {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Courgette';
+ }
+
+  h5 {
+    font-size: 1.5em;
+    font-family: 'Courgette';
+    text-align: center;
+ }
+
+ h6 {
+    font-family: 'Courgette';
+ }
+
+ .letters-right {
+    font-family: 'Courgette';
+    list-style: none;
+    text-decoration: none;
+ }
+
+ div ul li {
+    text-decoration: none;
+    list-style: none;
+ }
+
+ p{
+    margin-left: 10px;
+ }
+
+.paragraph {
+    padding:5%;
+}
+.image-container {
+    text-align: center;
+    padding:3%;
+}
+ 
+
+ span {
+    font-size: 1em;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Courgette';
+    color:  #33334d;
+ }
+.words {
+    clear:both;
+    text-align: center;
+}
+
+.letters-right {
+    float:right;
+    margin-right: 10%;
+}
+
+/*****FOOTER*****/
+
+footer {
+    clear:both;
+    text-align: center;
+    padding:3%;
+    color:#d5f4e6;
+    background:#618685;
+}
+ 
+ i{
+    color:#d5f4e6;
+ }
+
+/****PSEUDO CLASSES****/
+
+.selected {
+    color: #80ced6;
+}
+
+a:hover {
+    color: #80ced6;
+}
+
+.gallery {
+    list-style: none;
+    margin-left: 20px;
+}
+
+/***VIDEOS****/
+
+.videos {
+    float: right;
+    margin-right: 12px;
+}
+
+/****IMAGES****/
+
+.month-two{
+    max-width:150px;
+    height:auto;
+}
+
+
+.main-img{
+    max-width: 315px;
+    min-width: 150px;
+}
+
+.picture {
+    
+    width: 75%;
+    margin: 0 auto;
+    vertical-align: center;
+    padding-bottom: .5%;
+}
+
+.main-picture {
+    vertical-align: center;
+    width:75%;
+    margin: 0 auto;
+    padding-bottom: .5%;
+}
+
+
+
+
+
+
+
+@media (min-width:768px){
+
+    .img-container {
+        float:left;
+        vertical-align: center;
+        padding-bottom: 2%;
+         display:inline;
+    }
+
+    .picture {
+        width: 46%;
+        max-width:315px;
+    }
+
+    .main-picture {
+        width:46%;
+        max-width:315px;
+        text-align: center;
+    }
+
+    .main-img {
+        display:inline;
+    }
+
+    nav {
+        text-align: right;
+        margin-right: 15%;
+    }
+    .gallery-container {
+        max-width: 50%
+    }
+    .videos {
+        max-width: 50%;
+    }
+    .images {
+        max-width: 350px;
+    }
+    .images2 {
+        max-width: 350px;
+    }
+}
+
+@media (min-width:1024px){
+    .main-picture {
+        
+        width:50%;
+    }
+    .picture {
+    
+        width:50%;
+    }
+}
+
+@media (max-width: 914px){
+    .container {
+        text-align: center;
+        vertical-align: center;
+    }
+
+}
